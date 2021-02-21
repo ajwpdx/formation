@@ -1,0 +1,24 @@
+#home {
+header{
+    margin-top: 75px;
+}
+
+  .shape-grid {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .shape {
+      width: 100px;
+      margin: 15px;
+    }
+
+    h3{
+        margin-top: 3rem;
+    }
+  }
+}

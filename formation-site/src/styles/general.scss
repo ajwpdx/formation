@@ -24,8 +24,9 @@ body {
   }
   
   h3{
-    font-family: $font-headers;
-    font-size: 1.8rem;
+    font-family: $font-text;
+    font-size: 2.3rem;
+    color: white
   }
   
   h4 {
@@ -42,6 +43,10 @@ body {
   a {
     text-decoration: none;
     color: inherit;
+    font-family: $font-headers;
+    font-size: 2.5rem;
+    color: $color-text;
+    font-weight: 700;
   }
 
   input, textarea, select{
@@ -71,6 +76,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 50%;
+    margin: 0 auto;
 
   }
 
