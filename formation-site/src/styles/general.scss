@@ -1,5 +1,8 @@
 body {
+    background-image: url('../images/shape-background.png');
     background-color: $color-background;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat, repeat;
     color: $color-black;
     transition: background-color 1s ease;
     transition: color 0.5s ease;
@@ -7,13 +10,23 @@ body {
 
   }
   
+  header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
   h1 {
     font-family: $font-title;
-    font-weight: 650;
+    font-weight: 450;
     letter-spacing: .1rem;
-    font-size: 4rem;
+    font-size: 6rem;
     line-height: 1.2;
     color: $color-white;
+    margin: 40px;
+    letter-spacing: 5px;
+    cursor: pointer;
   }
   
   h2 {

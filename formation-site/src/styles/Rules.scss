@@ -1,0 +1,23 @@
+.rule-book-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+
+    button{
+        font-size: 3.5rem;
+        color: white;
+        background-color: $color-yellow;
+        margin: 50px;
+    }
+
+    .rule-book{
+        display: flex;
+        height: 400px;
+        width: 600px;
+        border: 1px solid white;
+
+    }
+}

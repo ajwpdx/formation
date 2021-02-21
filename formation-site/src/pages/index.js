@@ -10,8 +10,9 @@ const IndexPage = () => (
   <div id='home'>
 
 <header>
+  <h1 href="/">FORMATION</h1>
     <nav>
-    <a>RULES</a>
+    <a href="/rules">RULES</a>
     <a>PRINT & PLAY</a>
     <a>BUY</a>
     <a>CONTACT</a>
@@ -32,6 +33,7 @@ const IndexPage = () => (
       <h3>a card-arranging strategy game</h3>
     </div>
   </div>
+
 )
 
 export default IndexPage
