@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <nav>
       <a href="/rules">RULES</a>
       <a href='/print-play'>PRINT & PLAY</a>
-      <a href='/'>BUY</a>
+      <a href='https://www.kickstarter.com/projects/alexwilliams/formation-a-card-arranging-strategy-game?ref=project_build' target="_blank" rel="noreferrer">BUY</a>
       <a href='/contact'>CONTACT</a>
     </nav>
   </header>

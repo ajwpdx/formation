@@ -17,7 +17,7 @@ const Contact = () => {
                 <img src={circle} className='shape' alt='red circle' />
                 <div>
                     <h3 id='general-inquiries'>General Inquiries</h3>
-                    <p>For general questions about the game, the best way to reach us at this time is through our Kickstarter campaign</p>
+                    <p>For general questions about the game, the best way to reach us at this time is through our <a href="https://www.kickstarter.com/projects/alexwilliams/formation-a-card-arranging-strategy-game?ref=project_build" target="_blank" rel="noreferrer">Kickstarter campaign</a>.</p>
                 </div>
                 <img src={square} className='shape' alt='red circle' />
                 <div>
