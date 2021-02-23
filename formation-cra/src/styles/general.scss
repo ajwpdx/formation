@@ -33,7 +33,7 @@ h2 {
 h3 {
   font-family: $font-text;
   font-size: 2.3rem;
-  color: white;
+  color: $color-white;
 }
 
 h4 {
@@ -67,7 +67,7 @@ button {
   margin: -15px;
   padding: 1rem;
   font-weight: bold;
-  color: white;
+  color: $color-white;
   box-shadow: inset;
   border-radius: 7px;
   cursor: pointer;
