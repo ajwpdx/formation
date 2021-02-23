@@ -8,7 +8,7 @@ body {
   transition: color 0.5s ease;
   font-family: $font-text;
 
-  @media(max-width: 500px){
+  @media (max-width: 500px) {
     background-image: none;
   }
 }
@@ -61,31 +61,32 @@ a {
 }
 
 button {
+  font-size: 3.5rem;
   background-color: $color-yellow;
+  z-index: 5;
+  margin: -15px;
+  padding: 1rem;
   font-weight: bold;
   color: white;
-  padding: 1rem;
-  border-radius: 7px;
   box-shadow: inset;
+  border-radius: 7px;
   cursor: pointer;
-  font-size: 1.5rem;
 
   &:hover {
-    // box-shadow: 1px 1px 1px 1px rgba(25,25,0,0.4);
     opacity: 80%;
+    box-shadow: 1px 1px 1px 1px rgba(25, 25, 0, 0.4);
   }
 }
 
-.msg{
+.msg {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10rem;
   color: $color-red;
 
-  h2{
+  h2 {
     font-family: $font-text;
     font-size: 5rem;
   }
 }
-
