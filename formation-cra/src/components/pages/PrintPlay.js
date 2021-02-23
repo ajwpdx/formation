@@ -4,7 +4,7 @@ import Header from '../layouts/Header'
 
 
 
-const Home = () => {
+const PrintPlay = () => {
 
     return (
 
@@ -12,8 +12,8 @@ const Home = () => {
             <Header />
 
 
-            <div className='msg'>
-                <h3>Print & Play coming soon</h3>
+            <div className='pnp'>
+                <p>Print & Play coming soon</p>
             </div>
 
         </div>
@@ -24,4 +24,4 @@ const Home = () => {
 
 }
 
-export default Home
+export default PrintPlay

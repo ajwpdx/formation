@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <a href="/rules">RULES</a>
       <a href='/print-play'>PRINT & PLAY</a>
       <a href='/'>BUY</a>
-      <a href='/'>CONTACT</a>
+      <a href='/contact'>CONTACT</a>
     </nav>
   </header>
 )
