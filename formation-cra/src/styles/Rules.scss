@@ -1,0 +1,44 @@
+#rules {
+
+    text-align: center;
+
+
+    .rule-book-pdf{
+        text-decoration: underline;
+        @media(max-width: 850px){
+            margin-top: 10rem;
+        }
+    }
+
+  .rule-book-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 100%;
+
+    @media(max-width: 850px){
+        display: none;
+    }
+
+    button {
+      font-size: 3.5rem;
+      color: white;
+      background-color: $color-yellow;
+      z-index: 5;
+      margin: -15px;
+    }
+
+    .rule-book {
+      display: flex;
+      max-width: 900px;
+      justify-content: center;
+
+      .rule-page {
+        width: 450px;
+        border: 1px solid white;
+      }
+    }
+  }
+}
