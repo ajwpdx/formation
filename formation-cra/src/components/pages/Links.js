@@ -9,7 +9,7 @@ const Links = () => {
                 <img src={logo} className='formation-logo' alt='formation logo' />
             </a>
             <div className='link-buttons'>
-                <a  href="https://taborgames.com/">Buy Formation</a>
+                <a  href="https://taborgames.com/products/formation">Buy Formation</a>
                 <a  href="https://boardgamegeek.com/boardgame/347775/formation">Review on BoardGameGeek</a>
                 <a  href="https://www.facebook.com/formationcardgame">Follow us on Facebook</a>
                 <a  href="/rules">Checkout the Rules</a>
